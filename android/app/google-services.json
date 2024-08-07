@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849306041314",
+    "project_id": "dars10-a63b7",
+    "storage_bucket": "dars10-a63b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849306041314:android:f5d7594868c64a32b697bb",
+        "android_client_info": {
+          "package_name": "com.example.vazifa_13"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbP8orVonyuv7wQSz3_YptyeSkRVAI9-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
