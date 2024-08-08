@@ -26,15 +26,15 @@ class ContactModel {
     );
   }
 
-  Future<List<ContactModel>> fetchContacts(List<String> userIds) async {
-    List<ContactModel> contacts = [];
-    for (String id in userIds) {
-      DocumentSnapshot doc =
-          await FirebaseFirestore.instance.collection('users').doc(id).get();
-      if (doc.exists) {
-        contacts.add(ContactModel.fromDocumentSnapshot(doc));
-      }
-    }
-    return contacts;
-  }
+  // Future<List<ContactModel>> fetchContacts(List<String> userIds) async {
+  //   List<ContactModel> contacts = [];
+  //   for (String id in userIds) {
+  //     DocumentSnapshot doc =
+  //         await FirebaseFirestore.instance.collection('users').doc(id).get();
+  //     if (doc.exists) {
+  //       contacts.add(ContactModel.fromDocumentSnapshot(doc));
+  //     }
+  //   }
+  //   return contacts;
+  // }
 }
